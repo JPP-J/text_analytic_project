@@ -1,0 +1,77 @@
+Clustering:
+Kmean Clustering:
+Silhouette Score: 0.014520769609316708
+Adjusted Rand Index: 0.7696017640692446
+Davies-Bouldin Index: 7.820867401821843
+labels   business  entertainment  politics  sport  tech
+cluster
+0             496             30       127      1    16
+1               4              0       284      0     0
+2               1            347         0      1     5
+3               8              5         3      0   363
+4               1              4         3    509    17
+labels    business  entertainment   politics      sport       tech
+cluster
+0        74.029851       4.477612  18.955224   0.149254   2.388060
+1         1.388889       0.000000  98.611111   0.000000   0.000000
+2         0.282486      98.022599   0.000000   0.282486   1.412429
+3         2.110818       1.319261   0.791557   0.000000  95.778364
+4         0.187266       0.749064   0.561798  95.318352   3.183521
+
+Classification:
+Naive Bayes Accuracy: 0.9670658682634731
+               precision    recall  f1-score   support
+
+     business       0.96      0.98      0.97       163
+entertainment       0.99      0.93      0.96       120
+     politics       0.91      0.99      0.95       112
+        sport       0.99      0.99      0.99       148
+         tech       0.98      0.93      0.95       125
+
+     accuracy                           0.97       668
+    macro avg       0.97      0.97      0.97       668
+ weighted avg       0.97      0.97      0.97       668
+
+
+k-NN Accuracy: 0.7140718562874252
+               precision    recall  f1-score   support
+
+     business       0.87      0.81      0.84       163
+entertainment       0.00      0.00      0.00       120
+     politics       0.66      0.92      0.77       112
+        sport       0.60      0.97      0.74       148
+         tech       0.81      0.78      0.80       125
+
+     accuracy                           0.71       668
+    macro avg       0.59      0.70      0.63       668
+ weighted avg       0.61      0.71      0.65       668
+
+
+SVM Accuracy: 0.9835329341317365
+               precision    recall  f1-score   support
+
+     business       0.99      0.98      0.98       163
+entertainment       0.97      0.99      0.98       120
+     politics       0.97      0.99      0.98       112
+        sport       1.00      0.99      1.00       148
+         tech       0.99      0.97      0.98       125
+
+     accuracy                           0.98       668
+    macro avg       0.98      0.98      0.98       668
+ weighted avg       0.98      0.98      0.98       668
+
+
+Best parameters: {'C': 1, 'gamma': 'scale', 'kernel': 'linear'}
+Best cross-validated accuracy: 0.9768777310577954
+Test Accuracy: 0.9835329341317365
+               precision    recall  f1-score   support
+
+     business       0.99      0.98      0.98       163
+entertainment       0.97      0.99      0.98       120
+     politics       0.97      0.99      0.98       112
+        sport       1.00      0.99      1.00       148
+         tech       0.99      0.97      0.98       125
+
+     accuracy                           0.98       668
+    macro avg       0.98      0.98      0.98       668
+ weighted avg       0.98      0.98      0.98       668
