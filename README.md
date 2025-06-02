@@ -1,4 +1,7 @@
 # Text Analytic Project
+![Last Commit](https://img.shields.io/github/last-commit/JPP-J/text_analytic_project?style=flat-square)
+![Python](https://img.shields.io/badge/Python-97.8%25-blue?style=flat-square)
+![Languages](https://img.shields.io/github/languages/count/JPP-J/text_analytic_project?style=flat-square)
 
 This repo is home to the code that accompanies Jidapa's *Text Analytic Project* , which provides; 
 - [Text classification and Clustering report](https://drive.google.com/file/d/1hwf-yAWtEjgi-CYBG3U80RKYMJwHa6mS/view?usp=sharing) in Python code and Rapid Miner processes with text processes tokenize, stemming, remove stop word and convert to vector like TF-IDF, Term occurrence:
