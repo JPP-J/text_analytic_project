@@ -3,7 +3,47 @@
 ![Python](https://img.shields.io/badge/Python-97.8%25-blue?style=flat-square)
 ![Languages](https://img.shields.io/github/languages/count/JPP-J/text_analytic_project?style=flat-square)
 
-This repository contains the code and report for **Jidapa's Text Analytic Project**, which applies various machine learning techniques to **text classification and clustering** tasks. Implementations were done using both **Python** and **RapidMiner**.
+This repository contains the code and report for **Jidapa's Text Analytic Project**
+
+## 📌 Overview
+
+This project applies various **machine learning techniques** for **text classification and clustering** to analyze and categorize textual data effectively. Using both **Python** and **RapidMiner**, it explores preprocessing, feature extraction, and modeling approaches to provide insights into text-based datasets.
+
+### 🧩 Problem Statement
+
+Classifying and grouping text data accurately is essential for tasks such as content categorization, sentiment analysis, and information retrieval. However, text data is often noisy, high-dimensional, and sparse, which makes traditional analysis difficult. This project aims to develop robust machine learning models that can automate text classification and clustering to improve understanding and usability of textual information.
+
+### 🔍 Approach
+
+- **Preprocessing:** Tokenization, stemming, stop-word removal to clean text data.
+- **Feature Extraction:** Vectorization using TF-IDF and term occurrence to convert text into numeric form.
+- **Clustering:** K-Means and K-Medoids to group documents based on similarity.
+- **Classification:** Naive Bayes, k-NN, and SVM models to label text with predefined categories.
+- **Evaluation:** Use of metrics like silhouette score for clustering and accuracy/F1-score for classification to assess performance.
+
+### 🎢 Processes
+
+1. Data preprocessing and cleaning.
+2. Exploratory text analysis.
+3. Feature vectorization (TF-IDF, term occurrence).
+4. Clustering and classification model training.
+5. Model evaluation and comparison.
+6. Deployment of workflows in Python and RapidMiner.
+
+### 🎯 Results & Impact
+
+- High classification accuracy with SVM (98.35%), supporting reliable automated text categorization.  
+- Clustering provided meaningful groupings, though with some overlap.  
+- Facilitates faster and more consistent analysis of large text datasets, reducing manual effort.  
+- Enables quicker categorization and real-time updates for news and social media content, improving responsiveness.  
+- Offers flexible pipelines usable by data scientists and analysts for various text analytics tasks.
+
+### ⚙️ Development Challenges
+
+- Handling noisy and high-dimensional textual data effectively.
+- Choosing optimal feature extraction methods for different algorithms.
+- Balancing interpretability and performance between classical ML models.
+- Integrating Python and RapidMiner workflows for complementary analysis.
 
 
 ## 📄 Report
@@ -55,7 +95,7 @@ The report covers:
 | 3       | 8        | 5              | 3        | 0     | 363  |
 | 4       | 1        | 4              | 3        | 509   | 17   |
 
-
+---
 
 ## 🤖 Classification Results
 
